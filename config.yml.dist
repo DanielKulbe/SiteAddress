@@ -1,0 +1,14 @@
+# Website owner information
+
+name: John Bolt
+address:
+    street: Collstreet 23
+    zip: 00000
+    city: Example Vill
+    country: US
+phone: +49 (0) 00.00 00 00 00
+mobile: +49 (0) 000.00 00 00
+mail: me@example.com
+
+# template name
+template: address.twig

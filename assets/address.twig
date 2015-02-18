@@ -1,0 +1,18 @@
+
+<address>
+    <strong>{{ name }}</strong><br />
+    {% if address is defined %}
+    <i class="fa fa-fw fa-map-marker"></i> {{ address.street }}<br />
+    <i class="fa fa-fw"></i> {{ address.zip }} {{ address.city }}<br />
+    <i class="fa fa-fw"></i> {{ address.country|country }}<br />
+    {% endif %}
+    <a href="tel:{{ phone|preg_replace('/\\s\\.\\(\\)-\\//i', '') }}" title="{{ __('Contact me by Phone') }}">
+        <i class="fa fa-fw fa-phone"></i> {{ phone }}
+    </a><br />
+    <a href="tel:{{ mobile|preg_replace('/\\s\\.\\(\\)-\\//i', '') }}" title="{{ __('Contact me by Mobile Phone') }}">
+        <i class="fa fa-fw fa-mobile"></i> {{ mobile }}
+    </a><br />
+    <a href="mailto:{{ mail }}" title="{{ __('Contact me by Email') }}">
+        <i class="fa fa-fw fa-envelope"></i> {{ mail|preg_replace('/@/',' [at] ') }}
+    </a>
+</address>

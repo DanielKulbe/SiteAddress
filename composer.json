@@ -1,0 +1,29 @@
+{
+    "name": "danielkulbe/siteaddress",
+    "description": "Display address and contact information your website.",
+    "type": "bolt-extension",
+    "keywords": [
+        "address", "contact", "info", "phone", "owner"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Kulbe",
+            "email": "info@daniel-kulbe.de"
+        }
+    ],
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\DanielKulbe\\SiteAddress\\": ""
+        }
+    },
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}
