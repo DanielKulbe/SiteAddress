@@ -3,11 +3,9 @@
 
 namespace Bolt\Extension\DanielKulbe\SiteAddress;
 
-use Bolt\Application;
-use Bolt\BaseExtension;
 use Symfony\Component\Intl\Intl as Intl;
 
-class Extension extends BaseExtension
+class Extension extends \Bolt\BaseExtension
 {
     /**
      * Extension name

@@ -1,5 +1,5 @@
 <?php
 
-namespace Bolt\Extension\DanielKulbe\SiteAddress;
+use Bolt\Extension\DanielKulbe\SiteAddress\Extension;
 
 $app['extensions']->register(new Extension($app));
