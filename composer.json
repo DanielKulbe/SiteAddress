@@ -15,7 +15,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "http://gitlab.daniel-kulbe.de/root/bolt-siteaddress.git"
+            "url": "git@bitbucket.org:danielkulbe/bolt-siteaddress.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:DanielKulbe/SiteAddress.git"
         }
     ],
     "require": {
